@@ -35,11 +35,19 @@
     }
 
     input[type="radio"]:checked + span {
-      background: #4caf50;
-      color: white;
-      border-radius: 6px;
-      padding: 0.2rem 0.5rem;
+     background: #4caf50;
+     color: white;
     }
+
+  span {
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+    white-space: nowrap; 
+    }
+
 
     span {
       display: inline-block;
@@ -89,13 +97,13 @@
 
     <div class="row">
       <label><input type="radio" name="source" value="FB"><span>Facebook</span></label>
-      <label><input type="radio" name="source" value="Maps"><span>Maps</span></label>
       <label><input type="radio" name="source" value="Insta"><span>Instagram</span></label>
       <label><input type="radio" name="source" value="Tiktok"><span>Tiktok</span></label>
-      <label><input type="radio" name="source" value="Coupon"><span>Coupon</span></label>
-      <label><input type="radio" name="source" value="Friend"><span>Friend</span></label>
+      <label><input type="radio" name="source" value="Maps"><span>Maps</span></label>
       <label><input type="radio" name="source" value="Walk"><span>Walk-in</span></label>
+      <label><input type="radio" name="source" value="Friend"><span>Friend</span></label>
       <label><input type="radio" name="source" value="Returning"><span>Returning</span></label>
+      <label><input type="radio" name="source" value="Coupon"><span>Coupon</span></label>
     </div>
 
     <div class="row">
